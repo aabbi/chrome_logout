@@ -1,0 +1,13 @@
+{
+  "name": "Chrome Logout Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A chrome extension that finds the log out link and on clicking the button directly logs you out. You don't have to search the button anymore",
+  "browser_action": {
+    "default_icon": "logout.png"
+  },
+  "background": {
+    "scripts":["click.js"]
+},
+"permissions": ["tabs", "<all_urls>"]
+}
